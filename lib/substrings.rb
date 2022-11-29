@@ -1,5 +1,7 @@
 # frozen_string_literal: true
 
+require 'pry-byebug'
+
 # puts substrings("Howdy partner, sit down! How's it going?", dictionary)
 # Search for each substring in word (case-insensitive)
 # For each substring found
@@ -7,6 +9,7 @@
 # Return the count hash
 
 def substrings(num_a, num_b)
+  # binding.pry
   num_a + num_b
 end
 
