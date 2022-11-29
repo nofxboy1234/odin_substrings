@@ -1,12 +1,9 @@
 # frozen_string_literal: true
 
-require './lib/calculator'
+require './lib/substrings'
 
-describe Calculator do
-  describe '#add' do
-    it 'returns the sum of two numbers' do
-      calculator = Calculator.new
-      expect(calculator.add(5, 2)).to eql(7)
-    end
+describe 'Substrings' do
+  it 'returns the sum of 2 numbers' do
+    expect(substrings(5, 2)).to eql(7)
   end
 end

@@ -6,8 +6,8 @@
 #   Add it to a hash with substring as key and count as value
 # Return the count hash
 
-def substrings
-  'hello'
+def substrings(num_a, num_b)
+  num_a + num_b
 end
 
 # def substrings(word, dictionary)
