@@ -9,7 +9,7 @@ require 'pry-byebug'
 # Return the count hash
 
 def substrings(num_a, num_b)
-  # binding.pry
+  binding.pry
   num_a + num_b
 end
 
