@@ -6,6 +6,7 @@ def substrings(word, dictionary)
   # binding.pry
   words_found = dictionary.to_h { |item| [item, 0] }
   dictionary.each do |w|
+    # binding.pry if w == 'how'
     offset = 0
     while word.downcase.index(w.downcase, offset)
       words_found[w] += 1
